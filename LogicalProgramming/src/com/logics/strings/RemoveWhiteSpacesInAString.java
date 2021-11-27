@@ -3,7 +3,7 @@ package com.logics.strings;
 public class RemoveWhiteSpacesInAString {
 
 	public static void main(String[] args) {
-		String words="Iam A Fan Of virat";
+		String words="Iam CustomArrayListMain Fan Of virat";
 		System.out.println(words);
 		String rwstr = removewhitespaces(words);
 		System.out.println(rwstr);

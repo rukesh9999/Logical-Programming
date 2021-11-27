@@ -2,7 +2,7 @@ package com.logics.array;
 
 import java.util.ArrayList;
 
-public class A {
+public class CustomArrayListMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -16,7 +16,7 @@ public class A {
      
      
     
- 		CustomArrayList cst =new CustomArrayList();
+ 		CustomArrayList cst = new CustomArrayList();
  		cst.add("rukesh");
  		cst.add(10);
  		cst.add("mounica");

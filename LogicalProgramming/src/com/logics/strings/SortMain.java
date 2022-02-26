@@ -22,15 +22,12 @@ public class SortMain {
 		
 		Collections.sort(clearList,new Comparator<Clear>() {
 
-		
-
 			@Override
 			public int compare(Clear o1, Clear o2) {
 				// TODO Auto-generated method stub							
 				return o1.getLastName().compareTo(o2.getLastName());
 			}
 		
-			
 		});
 	
 		clearList.forEach(clear-> System.out.println(clear));

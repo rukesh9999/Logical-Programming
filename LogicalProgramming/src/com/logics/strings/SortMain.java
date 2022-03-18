@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.List;
+import java.util.List;import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 public class SortMain {
  
@@ -32,8 +33,11 @@ public class SortMain {
 	
 		clearList.forEach(clear-> System.out.println(clear));
 		
+		System.out.println("=======================");
+		List<Clear> collect = clearList.stream().sorted((c1,c2)->c1.getLastName().compareTo(c2.getLastName()))
+		.collect(Collectors.toList());
 		
-		
+		collect.forEach(System.out::println);
 	}
 	
 }

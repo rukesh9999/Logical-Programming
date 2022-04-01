@@ -15,6 +15,7 @@ public class FindFirstAndFindAny {
 		Stream.of("one","two","three","four")
 		.parallel()
 		.findAny()
+		
 		.ifPresent(System.out::println);
 		
 	}

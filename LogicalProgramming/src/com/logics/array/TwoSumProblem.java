@@ -8,6 +8,7 @@ public class TwoSumProblem {
 	 
 	public static void main(String[] args) {
 		int[] arr = {2,4,5,6,8,3};
+		//int[] arr = {0,4,1,7,3,3};
 		long start = System.currentTimeMillis(); 
 		int[] res = solveTwoSumProblem(arr);
 		long end= System.currentTimeMillis(); 
@@ -20,7 +21,7 @@ public class TwoSumProblem {
 		int[] res2 = twoSumProblemUsingMap(arr);
 		long endm= System.currentTimeMillis(); 
 		System.out.println(Arrays.toString(res2));
-		System.out.println("time taken to  calculate  ...." + 
+		System.out.println("time taken to  calculate using map ...." + 
 	            (endm - startm)   + "ms"); 
 	}
 

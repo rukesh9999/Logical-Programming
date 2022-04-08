@@ -11,8 +11,8 @@ public class CloningMain {
 	
 	Person p2 = (Person) p1.clone();
 	
-	p2.setEmail("abc");
-	p2.getAddress().setCity("HI");
+	p2.setEmail("abc@gmail.com");
+	p2.getAddress().setCity("guntur");
 	
 	System.out.println(p1);
 	System.out.println(p2);

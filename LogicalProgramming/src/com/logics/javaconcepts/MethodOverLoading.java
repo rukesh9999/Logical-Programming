@@ -14,7 +14,7 @@ public class MethodOverLoading {
 		System.out.println("String");
 	}
 	
-	
+	private static int $;
 	
 	
 	public static void main(String[] args) {
@@ -22,6 +22,10 @@ public class MethodOverLoading {
 		MethodOverLoading mo= new MethodOverLoading();
 		String i=null;
 		mo.fun(i);
+		
+		String a_b;
+		//System.out.println(a_b);//CTE local variable must be initialized
+		System.out.println($);
 		
 		
 	}

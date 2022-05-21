@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Test {
+public class FindFirstAndLastDigitOfGivenNumber {
 
 	static final int aa = 10;
 	

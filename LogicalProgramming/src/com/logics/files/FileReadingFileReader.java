@@ -6,6 +6,7 @@ import java.io.IOException;
 
 public class FileReadingFileReader {
 
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		FileReader fr =null;

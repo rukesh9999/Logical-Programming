@@ -18,7 +18,7 @@ public class camelCaseString {
 				camelcasearr[count]=string.toLowerCase();
 			}
 			else {
-				if(!string.equals("") && string!=null) {
+				if(string!=null && !string.equals("")) {
 				String firstletter = string.substring(0,1).toUpperCase();
 				String remletters =string.substring(1).toLowerCase();
 				String finalstr =firstletter+remletters;

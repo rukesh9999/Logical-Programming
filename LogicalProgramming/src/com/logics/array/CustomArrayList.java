@@ -95,8 +95,8 @@ public class CustomArrayList {
 			count++;
 			}
 		}
-		reqobject="required object not found";
-		return reqobject;
+		return reqobject="required object not found";
+		//return reqobject;
 	}
 	
 	/**
